@@ -4,7 +4,7 @@ body::-webkit-scrollbar { width: 0em;display: none; }
 .header_container { position: fixed;width: 100%;top: 0;z-index: 5; }
 .subHeader{background-color: #ffffff;}
 
-.body_container { /* height: 100vh;overflow-y:auto; */ background-color: #d3bdbd;margin-top: 96px;margin-bottom: 60px; }
+.body_container { /* height: 100vh;overflow-y:auto; */ height: 100vh; background-color: #d3bdbd;margin-top: 96px;margin-bottom: 60px; }
 
 .footer { text-align: center;position: fixed;bottom: 0;width: 100%;height: 60px;background: #afb2bf;z-index: 0; }
 

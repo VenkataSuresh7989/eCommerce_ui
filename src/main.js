@@ -3,7 +3,11 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+/* Custom CSS */
 import "./assets/css/master_layout.css";
+
+/* Icons */
+import 'boxicons';
 
 /* Bootstrap Integration */
 import 'bootstrap/dist/css/bootstrap.css';
