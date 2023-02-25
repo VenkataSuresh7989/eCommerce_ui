@@ -1,8 +1,8 @@
 <template>
   <div>
     <Navbar />
-    <div>
-      <h5>Sub menu</h5>
+    <div class="subHeader">
+      <h5 class="m-0 pt-2 pb-2">Sub menu</h5>
     </div>
   </div>
 </template>
