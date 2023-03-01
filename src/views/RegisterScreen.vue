@@ -1,7 +1,7 @@
 <template>
-	<div class="login">
-		<h3 class="text-center">Login</h3>
-		<div class="login_form">
+	<div class="register">
+		<h3 class="text-center">Register</h3>
+		<div class="register_form">
 			<b-form @submit="onSubmit">
 				<b-form-group id="input-group-1" label="Email:" label-for="input-1">
 					<b-form-input id="input-1" v-model="email" type="email" placeholder="Enter email" required></b-form-input>
@@ -16,18 +16,6 @@
 </template>
 <script>
 export default {
-  name: "LoginScreen",
-  data() {
-    return {        
-        email: '',
-        password: '',
-    }
-  },
-  methods: {
-    onSubmit: function(event){
-        event.preventDefault();
-        console.log("email : "+this.email,"password : "+this.password);
-    }
-  },
-};
+    name:'RegisterScreen',
+}
 </script>

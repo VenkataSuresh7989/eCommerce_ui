@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <Login v-if="isLogin"/>
-    <HomeView v-else/>    
-  </div>
+	<div>
+		<div v-if="isLogin">
+			<Login /> </div>
+		<div v-else>
+			<HomeView /> </div>
+	</div>
 </template>
 <script>
 import HomeView from "../src/views/HomeView.vue";
@@ -12,7 +14,7 @@ export default {
   name: "App",
   data(){
     return {
-      isLogin : true,
+      isLogin : false,
     }
   },
   components: {

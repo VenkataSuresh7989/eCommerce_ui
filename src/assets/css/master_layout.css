@@ -11,3 +11,8 @@ body::-webkit-scrollbar { width: 0em;display: none; }
 .cust_table { height:calc( 100vh - 145px );overflow-y:auto;padding-bottom:60px; }
 
 .cust_table::-webkit-scrollbar { width: 0em;display: none; }
+
+.login_form , .register_form { left : 50%;top : 50%;position : absolute;transform : translate(-50%, -50%); }
+.btn_submit { margin: auto;display: flex; }
+
+.login ,.register { height: 100vh;background-image: url('../images/bg3.jpg');background-size: cover; }
