@@ -1,28 +1,21 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 
-import Login from "../views/LoginScreen.vue";
-import Register from "../views/RegisterScreen.vue";
-
-import HomeView from "../views/HomeView.vue";
+import ShoppingCart from "../components/ShoppingCart.vue";
+import PageNotFound from "../components/PageNotFound.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "home",
-    component: HomeView,
+    name: "ShoppingCart",
+    component: ShoppingCart,
   },
   {
-    path: "/login",
-    name: "Login",
-    component: Login,
-  },
-  {
-    path: "/register",
-    name: "Register",
-    component: Register,
+    path: "*",
+    name: "PageNotFound",
+    component: PageNotFound,
   },
 ];
 

@@ -15,4 +15,4 @@ body::-webkit-scrollbar { width: 0em;display: none; }
 .login_form , .register_form { left : 50%;top : 50%;position : absolute;transform : translate(-50%, -50%); }
 .btn_submit { margin: auto !important;display: flex !important; }
 
-.login ,.register { height: 100vh;background-image: url('../images/bg3.jpg');background-size: cover; }
+.login ,.register { height: calc(100% - 0px); }
